@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Description</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="main">
+    <div
+      class="container h-100 d-flex align-items-center justify-content-center"
+    >
+      <div class="row align-items-center gap-3 gap-md-0">
+        <div class="col-12 col-md-6">
+          <img
+            id="product-image"
+            src="./images/img-1.png"
+            alt="Product Image"
+            class="img-fluid product-image"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="bold-and-bigger-text">Classy Modern Smart watch</h2>
+          <div class="rating d-flex justify-content-start gap-2">
+            <div
+              class="stars d-flex justify-content-start align-items-center general-font"
+            >
+              <img class="" src="/images/star-fill.png" alt="" />
+              <img class="" src="/images/star-fill.png" alt="" />
+              <img class="" src="/images/star-fill.png" alt="" />
+              <img class="" src="/images/star-half.png" alt="" />
+              <img class="" src="/images/star.png" alt="" />
+            </div>
+            (2 Reviews)
+          </div>
+          <p
+            class="price d-flex justify-content-start align-items-center gap-2 general-font"
+          >
+            <span class="text-decoration-line-through text-muted">$99.00</span>
+            <span class="discount" style="color: #6576ff">$69.00</span>
+          </p>
+          <p class="general-font">
+            I must explain to you how all this mistaken idea of denoun cing ple
+            praisingpain was born and I will give you a complete account of the
+            system, andexpound the actual teaching.
+          </p>
+          <div
+            class="d-flex justify-content-start gap-4 align-items-center my-4"
+          >
+            <div class="d-flex flex-column justify-content-between">
+              <span class="general-smaller-font">Type</span
+              ><span class="general-bold-font">Watch</span>
+            </div>
+            <div class="d-flex flex-column justify-content-between">
+              <span class="general-smaller-font">Model Number</span
+              ><span class="general-bold-font">Forerunner 290XT</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column justify-content-start my-4">
+            <p class="mb-2 general-bold-font">Band Color:</p>
+            <div class="color-options">
+              <input
+                class="radio-button"
+                type="radio"
+                id="color1"
+                name="color"
+                value="1"
+                checked
+              />
+              <label class="visually-hidden" for="color1">Black</label>
+              <input
+                class="radio-button"
+                type="radio"
+                id="color2"
+                name="color"
+                value="2"
+              />
+              <label class="visually-hidden" for="color2">White</label>
+              <input
+                class="radio-button"
+                type="radio"
+                id="color3"
+                name="color"
+                value="3"
+              />
+              <label class="visually-hidden" for="color3">Red</label>
+              <input
+                class="radio-button"
+                type="radio"
+                id="color4"
+                name="color"
+                value="4"
+              />
+              <label class="visually-hidden" for="color4">Blue</label>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column justify-content-start my-4">
+            <p class="general-bold-font">Wrist Size:</p>
+            <div class="size-options">
+              <button
+                class="size-btn rounded-2 bg-transparent border-1 size py-1"
+                data-size="S"
+                data-price="$69"
+              >
+                S <span class="text-muted fw-light">$69</span>
+              </button>
+              <button
+                class="size-btn rounded-2 bg-transparent border-1 size py-1"
+                data-size="M"
+                data-price="$79"
+              >
+                M <span class="text-muted fw-light">$79</span>
+              </button>
+              <button
+                class="size-btn rounded-2 bg-transparent border-1 size py-1"
+                data-size="L"
+                data-price="$89"
+              >
+                L <span class="text-muted fw-light">$89</span>
+              </button>
+              <button
+                class="size-btn rounded-2 bg-transparent border-1 size py-1"
+                data-size="XL"
+                data-price="$99"
+              >
+                XL <span class="text-muted fw-light">$99</span>
+              </button>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-center gap-2">
+            <div class="quantity d-flex">
+              <button
+                class="qty-btn rounded-start border-1 border-end-0 px-3 bg-transparent"
+                id="decrease"
+              >
+                -
+              </button>
+              <input
+                class="input border-1 text-center"
+                type="number"
+                id="quantity"
+                value="1"
+              />
+              <button
+                class="qty-btn rounded-end border-1 border-start-0 px-3 bg-transparent"
+                id="increase"
+              >
+                +
+              </button>
+            </div>
+            <button class="btn quantity btn-purple py-0" id="add-to-cart">
+              Add to Cart
+            </button>
+            <button class="bg-transparent p-1 border-0" id="add-to-cart">
+              <img
+                style="height: 16px; width: 19px"
+                src="./images/heart.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center my-5">
+          <button
+            class="d-flex justify-content-between align-items-center pill-button border-0"
+            style="max-width: 139px; height: 42px"
+            id="checkout"
+            data-toggle="modal"
+            data-target="#cart-modal"
+          >
+            <p class="mb-0 general-bold-font">Checkout</p>
+            <div
+              id="cart-count"
+              class="cart-count d-flex justify-content-center align-items-center px-1 rounded-1 general-bold-font"
+            >
+              0
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div
+      class="modal fade"
+      id="cart-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="cart-modal-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-lg rounded-3"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-body">
+            <ul id="cart-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
