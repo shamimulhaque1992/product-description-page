@@ -29,6 +29,16 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+.bold-and-bigger-text-cart {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 .general-font {
   font-family: Roboto;
   font-size: 18px;
@@ -136,7 +146,7 @@
   font-weight: bold;
   color: #6576ff; /* Optional: change text color for the selected button */
 }
-@media screen and (min-width:280px) and (max-width: 1023px) {
+@media screen and (min-width: 280px) and (max-width: 1023px) {
   .btn-transparent {
     background-color: transparent;
     border: 1px solid #000;

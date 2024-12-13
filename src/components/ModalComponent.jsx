@@ -23,7 +23,7 @@ const ModalComponent = ({ cartItems, closeModal }) => {
         <div class="modal-content">
           <div class="modal-body">
             <ul id="cart-list">
-              <h2 class="border-0 bold-and-bigger-text">Your Cart</h2>
+              <h2 class="border-0 bold-and-bigger-text-cart">Your Cart</h2>
               <div className="table-responsive">
                 <table className="table">
                   <thead>
