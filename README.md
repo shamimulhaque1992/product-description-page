@@ -4,11 +4,11 @@ This is a simple product-description application built with raw HTML, CSS, JAVAS
 
 ## Live Preview HTML Version
 
-[Simple-Product-Description](https://zippy-lebkuchen-df0fb2.netlify.app/)
+[https://zippy-lebkuchen-df0fb2.netlify.app/](https://zippy-lebkuchen-df0fb2.netlify.app/)
 
 ## Live Preview React Version
 
-[Simple-Product-Description](https://heroic-basbousa-657a91.netlify.app/)
+[https://heroic-basbousa-657a91.netlify.app/](https://heroic-basbousa-657a91.netlify.app/)
 
 ## GitHub Repository React Version
 
