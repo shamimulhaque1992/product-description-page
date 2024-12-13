@@ -1,8 +1,77 @@
-# React + Vite
+# Simple Product Description Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple product-description application built with raw HTML, CSS, JAVASCRIPT and Bootstrap. The app allows users to select product color, size and add the product to cart. It also allows user to see the added product in cart.
 
-Currently, two official plugins are available:
+## Live Preview React Version
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Simple-Product-Description](https://heroic-basbousa-657a91.netlify.app/)
+
+## Live Preview HTML Version
+
+[Simple-Product-Description](https://zippy-lebkuchen-df0fb2.netlify.app/)
+
+## GitHub Repository HTML Version
+
+[Simple-Product-Description - GitHub Repository HTML Version](https://github.com/shamimulhaque1992/product-description-page/tree/main)
+
+## Features
+
+- Product Color and size selection with visual representation of the selected product.
+- Add to Cart functionality with quantity management.
+- Responsive design using bootstrap.
+- Increase or decrease product amount.
+- Total quantity and price calculation.
+- Instant quantity showcasing beside the checkout button.
+
+## Tech Stack
+
+- **React** with **JavaScript** for development convenience
+- **CSS** For styling
+- **Bootstrap** for development convenience
+- **JavaScript(ES6)** for interactivity and functionality
+
+---
+
+## Setup and Run Instructions
+
+### Prerequisites
+
+- Node.js (>= 16.x)
+- npm (>= 7.x)
+
+### Steps to Run the Project
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/shamimulhaque1992/simple-ecommerce.git
+   cd simple-ecommerce
+   ```
+
+### Install Dependencies
+
+###
+
+Using **npm**:
+
+```bash
+npm install
+
+```
+
+### Start the Development Server
+
+```bash
+npm run dev
+
+```
+
+### Building for Production
+
+```bash
+npm run build
+
+```
+
+### License
+
+This `README.md` provides a detailed guide to setting up the project with the necessary steps included for installation and more.
