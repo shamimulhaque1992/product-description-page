@@ -43,8 +43,8 @@ This is a simple product-description application built with raw HTML, CSS, JAVAS
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/shamimulhaque1992/simple-ecommerce.git
-   cd simple-ecommerce
+   git clone https://github.com/shamimulhaque1992/product-description-page.git
+   cd product-description-page
    ```
 
 ### Run The Project
