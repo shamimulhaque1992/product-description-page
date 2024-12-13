@@ -138,28 +138,29 @@ function updateCartCount() {
 // Function to update cart list
 function updateCartList() {
   cartList.innerHTML = `
-      <h2 class="border-0 bold-and-bigger-text">Your Cart</h2>
-      <div className="table-responsive">
-      <table class="table">
-        <thead>
-          <tr class="text-muted">
-            <th class="border-top-0" scope="col">Item</th>
-            <th class="border-top-0" scope="col">Color</th>
-            <th class="border-top-0" scope="col">Size</th>
-            <th class="border-top-0" scope="col">Qnt</th>
-            <th class="border-top-0" scope="col">Price</th>
-          </tr>
-        </thead>
-        <tbody id="cart-table-body">
-        </tbody>
-        <tfoot>
-          <tr>
-            <td class="cart-bottom-text" colspan="3">Total</td>
-            <td class="cart-bottom-text" id="total-quantity">0</td>
-            <td class="cart-bottom-text" id="total-price">$0.00</td>
-          </tr>
-        </tfoot>
-      </table></div>
+      <h2 class="border-0 bold-and-bigger-text-cart">Your Cart</h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr class="text-muted">
+              <th class="border-top-0" scope="col">Item</th>
+              <th class="border-top-0" scope="col">Color</th>
+              <th class="border-top-0" scope="col">Size</th>
+              <th class="border-top-0" scope="col">Qnt</th>
+              <th class="border-top-0" scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody id="cart-table-body">
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="cart-bottom-text" colspan="3">Total</td>
+              <td class="cart-bottom-text" id="total-quantity">0</td>
+              <td class="cart-bottom-text" id="total-price">$0.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
       
       <div class="d-flex justify-content-end">
       <button id="continue-shopping" class="btn-transparent">Continue Shopping</button>
@@ -174,14 +175,18 @@ function updateCartList() {
   cart.forEach((product, index) => {
     let cartItem = document.createElement("tr");
     cartItem.innerHTML = `
-        <td>
-          <img src="${product.image}" alt="Product Image" width="50" height="50">
-          ${product.name}
-        </td>
-        <td>${product.color}</td>
-        <td>${product.size}</td>
-        <td>${product.quantity}</td>
-        <td>${product.price}</td>
+        <tr>
+          <td>
+          <div class="d-flex justify-content-start align-items-center gap-4">
+          <img style="width:36px;height:100%;object-fit:cover;border-radius:5px;" src="${product.image}" alt="Product Image" width="50" height="50">
+            ${product.name}
+          </div> 
+          </td>
+          <td class="align-middle">${product.color}</td>
+          <td class="align-middle fw-bold">${product.size}</td>
+          <td class="align-middle fw-bold">${product.quantity}</td>
+          <td class="align-middle fw-bold">${product.price}</td>
+        </tr>
       `;
     cartTableBody.appendChild(cartItem);
   });
