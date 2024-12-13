@@ -53,4 +53,4 @@ Double click on index.html file to open the project in browser.
 
 ### License
 
-This `README.md` provides a detailed guide to setting up the project with the necessary steps included for installation, environment setup, and more.
+This `README.md` provides a detailed guide to setting up the project with the necessary steps included for installation and more.
